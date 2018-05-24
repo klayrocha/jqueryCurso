@@ -27,10 +27,26 @@
 //});
 
 // EXEMPLO 06
-$(function(){
+//$(function(){
+    //$("nome tag") recuperar pela nome da tag
+    //$("#nome id"); // recuperar pelo id
+    //$(".nome classe"); // recuperar pelo nome da classe
     //$("button"); pelo nome da tag
-    alert($("#botao1")); // pelo id
-    alert($(".botao")); // pelo classe
-    alert($("li.botao")); // apenas a li que tem a classe botão
-    alert($(".lista2 li.botao")); // apenas a li que tem a classe botão
-})
+    //$("#botao1"); // pelo id
+    //$(".botao"); // pelo classe
+    //$("li.botao"); // apenas a li que tem a classe botão
+    //$(".lista2 li.botao"); // apenas a li que tem a classe botão
+    //$("ul li.botao"); // as li(s) que tem a classe botão de dos ul(s)
+    //$("ul.lista2 li.botao"); // as li(s) que tem a classe botão de dos ul(s)
+    // VERIFICAR SE O COMPONENTE EXISTE
+     //if($('.botao').length > 0)  {
+     //    alert('Tem botao na página');
+     //}
+//});
+
+// EXEMPLO 07
+//$(function(){
+//    var elementoNaVariavel = $(".lista2 li.botao");
+//    alert(elementoNaVariavel);
+//});
+
