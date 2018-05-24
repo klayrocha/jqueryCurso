@@ -32,4 +32,5 @@ $(function(){
     alert($("#botao1")); // pelo id
     alert($(".botao")); // pelo classe
     alert($("li.botao")); // apenas a li que tem a classe botão
+    alert($(".lista2 li.botao")); // apenas a li que tem a classe botão
 })
